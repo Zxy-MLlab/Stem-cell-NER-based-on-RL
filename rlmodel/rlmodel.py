@@ -349,7 +349,7 @@ def train(gamma):
             feed_dict = dictionary = dict(zip(myAgent.tvars_holders, tvars_best))
             sess2.run(myAgent.update_tvar_holder, feed_dict)
             # save model
-            saver.save(sess2, save_path='rl_model/origin_rl_model.ckpt')
+            saver.save(sess2, save_path='rlmodel/origin_rl_model.ckpt')
 
     return
 
@@ -437,8 +437,8 @@ def select(save_path, x):
     return
 
 def main():
-    print("train rlmodel")
-    train(gamma=0.5)
+    # print("train rlmodel")
+    # train(gamma=0.5)
 
     print("writing select sentence")
     select('rlmodel/origin_rl_model.ckpt', x='precise')
