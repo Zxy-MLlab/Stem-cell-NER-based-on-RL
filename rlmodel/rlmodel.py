@@ -437,8 +437,8 @@ def select(save_path, x):
     return
 
 def main():
-    # print("train rlmodel")
-    # train(gamma=0.5)
+    print("train rlmodel")
+    train(gamma=0.5)
 
     print("writing select sentence")
     select('rlmodel/origin_rl_model.ckpt', x='precise')
