@@ -167,5 +167,5 @@ def main(x):
     f1 = f1*100
     return precision, recall, f1
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main(x='precise')
