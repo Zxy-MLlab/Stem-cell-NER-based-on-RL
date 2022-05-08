@@ -25,11 +25,11 @@ def read_data(read_path):
 
 def read_select_data(x):
     if x == 'precise':
-        select_data_path = 'output(shiyan)/sentence_label(precise).json'
+        select_data_path = 'output/sentence_label(precise).json'
     if x == 'train':
-        select_data_path = 'output(shiyan)/sentence_label(train).json'
+        select_data_path = 'output/sentence_label(train).json'
     if x == 'test':
-        select_data_path = 'output(shiyan)/sentence_label(test).json'
+        select_data_path = 'output/sentence_label(test).json'
     select_sentence_label = read_data(select_data_path)
     return select_sentence_label
 
