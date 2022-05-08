@@ -9,7 +9,7 @@ The dataset contains the following two files：
 * **precise_sentence_label.json:** This is our manually labeled stem cell label dataset, including 1479 sentences and 1577 stem cell labels, which is used for the evaluation of the model.
 
 **Pre-trained language model**\
-We use the biobert model based on the pytorch version. You need to download it and put it in biobert_base_cased/.
+We use the BioBERT model based on the pytorch version. You need to download it and put it in biobert_base_cased/.
 
 **Stem_cell_NER_dataset**\
 This dataset stores the stem cell named entity recognition dataset provided by us, including 4345 sentences and 4491 stem cell labels (accuracy: more than 90%).
