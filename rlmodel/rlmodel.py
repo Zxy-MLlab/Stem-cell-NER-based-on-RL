@@ -441,7 +441,7 @@ def main():
     train(gamma=0.5)
 
     print("writing select sentence")
-    select('rlmodel/origin_rl_model.ckpt', x='train')
+    select('rlmodel/origin_rl_model.ckpt', x='precise')
 
 
 if __name__ == '__main__':
